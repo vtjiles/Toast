@@ -16,7 +16,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        
+//        Toast.backgroundColor = UIColor(red: 102/255, green: 0/255, blue: 0/255, alpha: 1)
+//        Toast.textColor = UIColor(red: 255/255, green: 102/255, blue: 0/255, alpha: 1)
+//        Toast.font = UIFont.boldSystemFontOfSize(18)
+//        Toast.offset = 20
+        
         Toast.makeText("Hey, it works!")
+        Toast.makeText("This message got queued")
+        
         return true
     }
 
